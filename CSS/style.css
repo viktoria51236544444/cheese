@@ -1,0 +1,165 @@
+/* HEADER2 START */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding: 40px;
+}
+.header__title__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__title__icon span {
+  color: white;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  width: 154px;
+  margin: 0px 0px 0px 24px;
+}
+.header__inputBar {
+  display: flex;
+  align-items: center;
+}
+.header__inputBar img {
+  position: absolute;
+  margin: 3px 0px 0px 10px;
+}
+.header__inputBar input {
+  display: inline-flex;
+  padding: 8px 88px 8px 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 15px;
+  border-radius: 77px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+.header__inputBar input::placeholder {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+.header__contact {
+  display: flex;
+  align-items: center;
+}
+.header__contact span {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.header__contact img {
+  margin-left: 10px;
+}
+.header__btn button {
+  display: inline-flex;
+  padding: 14px 27px 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 66px;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-left: 10px;
+}
+
+/* HEADER2 FINISH */
+
+.basket {
+  border-radius: 5px;
+  background: #1951e7;
+  width: 150px;
+  height: 50px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+/* CONTENT MAIN FINISH */
+
+/* CONTENT CAT START */
+.body {
+  background-color: #c2b9b9;
+}
+.main_content {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-left: 15%;
+}
+.main_content2 {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+.feed {
+  width: 283px;
+  height: 487px;
+  background-color: white;
+  border-radius: 15px;
+}
+.feed_praice {
+  color: #1951e7;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.FLORIDA {
+  color: #292929;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 8px;
+}
+.discount {
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 8px;
+}
+.price {
+  margin-left: 5px;
+  color: #b3b6c9;
+  font-family: Roboto;
+  font-size: 14px;
+  text-decoration: line-through;
+
+  font-weight: 700;
+}
+.feed_price-container {
+  display: flex;
+}
+
+.feed_description {
+  color: #606c8c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+.basket {
+  margin-left: 55px;
+}
+
+/* CONTENT CAT FINISH */
